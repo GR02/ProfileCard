@@ -21,17 +21,21 @@ body {
 
 .victor {padding-left: 3rem; 
     padding-right: 3rem; 
+    padding-top: 35px;
     display: flex; 
     flex-direction: column; 
     align-items: center; 
     justify-content: center;}
 
-.victor img {border-radius: 50%;}
+.victor img {border-radius: 50%; 
+    position: absolute; 
+    top: 80px; border:solid;border-color: rgb(255, 255, 255);}
 
 .box-footer {display: flex; 
     flex-direction: row;}
 
-.metricas {padding: 1.5rem 1rem 1.5rem 0.5rem; text-align: center;}
+.metricas {padding: 1.5rem 1rem 1.5rem 0.5rem; 
+    text-align: center;}
 
 .about {display: flex; 
     flex-direction: row; 
@@ -43,7 +47,7 @@ body {
 .line {width: 100vw;
     height: 25px;
     border-bottom: 1px solid rgb(187, 187, 187);
-    position: absolute; padding-top: 13rem;}
+    position: absolute; top: 250px;}
 
 .local {display: flex; justify-content: center; padding-top: 1rem; padding-bottom: 2.5rem;}
 
