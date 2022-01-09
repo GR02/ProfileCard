@@ -18,19 +18,20 @@ body {
     align-items: center; 
     background-color: #19a2a3; }
 
-/* .header {position: absolute;left: -50vw; top: 0px; width: 100vw; margin-right: 13rem; align-items: left;} */
 
 .victor {padding-left: 3rem; 
-    padding-right: 3rem;}
+    padding-right: 3rem; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;}
 
 .victor img {border-radius: 50%;}
-
-/* .footer {position:absolute; right: -50vw; top: 300px; width: 100vw;}  */
 
 .box-footer {display: flex; 
     flex-direction: row;}
 
-.metricas {padding: 1.5rem 1rem 1.5rem 0.5rem;}
+.metricas {padding: 1.5rem 1rem 1.5rem 0.5rem; text-align: center;}
 
 .about {display: flex; 
     flex-direction: row; 
@@ -39,8 +40,19 @@ body {
 
 .about p {padding-right: 0.5rem;}
 
+.line {width: 100vw;
+    height: 25px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    position: absolute; padding-top: 13rem;}
 
-
-.local {display: flex; justify-content: center; padding-top: 1rem;}
+.local {display: flex; justify-content: center; padding-top: 1rem; padding-bottom: 2.5rem;}
 
 .box-header img {width: 100%; border-radius: 10px 10px 0px 0px;}
+
+.ngt {font-weight: bold; font-size: larger; color: rgb(5, 12, 32);}
+
+.age {font-size: larger; color: rgb(133, 133, 133);}
+
+.local {color: rgb(133, 133, 133);}
+
+.txt-metricas {font-size: small; color: rgb(133, 133, 133);}
