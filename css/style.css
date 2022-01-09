@@ -1,23 +1,31 @@
 .box {background-color: #ffffff; 
-    width: 50vw; 
-    margin-left: 2.5rem; 
-    margin-right: 3rem; 
-    padding-left: 1.5rem; 
-    padding-right: 2rem; 
-    border-radius: 5%;}
+    width: 90vw;
+    border-radius: 10px; 
+    overflow: hidden; 
+    position: relative; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;}
 
-body {background-color: rgb(24, 80, 80);}
+body {
+    background: url(../images/bg-pattern-bottom.svg) bottom -550px right -650px no-repeat, 
+    url(../images/bg-pattern-top.svg) top -625px left -700px no-repeat; 
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #19a2a3; }
 
-.header {width: 100vw; 
-    margin-right: 13rem; 
-    align-items: left;}
+/* .header {position: absolute;left: -50vw; top: 0px; width: 100vw; margin-right: 13rem; align-items: left;} */
 
 .victor {padding-left: 3rem; 
     padding-right: 3rem;}
 
 .victor img {border-radius: 50%;}
 
-.footer {width: 150vw;}
+/* .footer {position:absolute; right: -50vw; top: 300px; width: 100vw;}  */
 
 .box-footer {display: flex; 
     flex-direction: row;}
@@ -31,6 +39,8 @@ body {background-color: rgb(24, 80, 80);}
 
 .about p {padding-right: 0.5rem;}
 
+
+
 .local {display: flex; justify-content: center; padding-top: 1rem;}
 
-.box-header {background-image: url(../images/bg-pattern-card.svg);}
+.box-header img {width: 100%; border-radius: 10px 10px 0px 0px;}
