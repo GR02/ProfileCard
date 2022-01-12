@@ -1,15 +1,12 @@
 /* MOBILE */
-body 
-    {
-    background: url(../images/bg-pattern-bottom.svg) bottom -550px right -650px no-repeat, 
+body {background: url(../images/bg-pattern-bottom.svg) bottom -550px right -650px no-repeat, 
     url(../images/bg-pattern-top.svg) top -625px left -700px no-repeat; 
     height: 100vh; 
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
-    background-color: #19a2a3;
-    }
+    background-color: #19a2a3;}
 
 /* CARD */
 .box 
