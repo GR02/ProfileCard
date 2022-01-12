@@ -1,4 +1,4 @@
-/* Base */
+/* MOBILE */
 body 
     {
     background: url(../images/bg-pattern-bottom.svg) bottom -550px right -650px no-repeat, 
@@ -11,6 +11,7 @@ body
     background-color: #19a2a3;
     }
 
+/* CARD */
 .box 
     {
     background-color: #ffffff; 
@@ -24,12 +25,14 @@ body
     align-items: center;
     }
 
+/* HEADER */
 .box-header img 
     {
     width: 100%; 
     border-radius: 10px 10px 0px 0px;
     }
 
+/* MAIN */
 .victor 
     {
     padding-left: 3rem; 
@@ -41,6 +44,7 @@ body
     justify-content: center;
     }
 
+/* PROFILE IMAGE */
 .victor img 
     {
     border-radius: 50%; 
@@ -48,6 +52,7 @@ body
     top: 80px; border:solid;border-color: rgb(255, 255, 255);
     }
 
+/* TEXTOS PROFILE*/
 .about 
     {
     display: flex; 
@@ -92,12 +97,14 @@ body
     top: 250px;
     }
 
+/* FOOTER */
 .box-footer 
     {
     display: flex; 
     flex-direction: row;
     }
 
+/* TEXTOS FOOTER */
 .metricas 
     {
     padding: 1.5rem 1rem 1.5rem 0.5rem; 
@@ -108,4 +115,15 @@ body
     {
     font-size: small; 
     color: rgb(133, 133, 133);
+    }
+
+/* DESKTOP */
+
+@media screen and (min-width:811px) 
+    {
+    .box 
+    {
+    width: 25vw;
+    }
+
     }
